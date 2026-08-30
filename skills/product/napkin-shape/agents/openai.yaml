@@ -1,0 +1,5 @@
+interface:
+  display_name: "Napkin Shape"
+  short_description: "Decide the features that make the product"
+policy:
+  allow_implicit_invocation: false

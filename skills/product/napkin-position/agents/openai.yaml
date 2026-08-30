@@ -1,0 +1,5 @@
+interface:
+  display_name: "Napkin Position"
+  short_description: "Go-to-market strategy for a shaped product"
+policy:
+  allow_implicit_invocation: false

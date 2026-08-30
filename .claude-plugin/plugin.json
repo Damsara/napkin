@@ -1,0 +1,24 @@
+{
+  "name": "napkin-skills",
+  "version": "0.1.0",
+  "description": "Board-table product skills: take a vague idea to a requirement specification. Sharpen, spar, shape, position.",
+  "author": { "name": "Damsara Perera", "url": "https://github.com/Damsara" },
+  "homepage": "https://github.com/Damsara/napkin",
+  "repository": "https://github.com/Damsara/napkin",
+  "license": "MIT",
+  "keywords": ["product", "idea", "requirements", "spec", "positioning", "skills"],
+  "skills": [
+    "./skills/product/canon",
+    "./skills/product/sharpen",
+    "./skills/product/landscape",
+    "./skills/product/spar",
+    "./skills/product/shape",
+    "./skills/product/position",
+    "./skills/product/board",
+    "./skills/product/napkin-me",
+    "./skills/product/napkin-spar",
+    "./skills/product/napkin-shape",
+    "./skills/product/napkin-position",
+    "./skills/product/ask-napkin"
+  ]
+}

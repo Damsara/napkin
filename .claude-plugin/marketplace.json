@@ -1,0 +1,13 @@
+{
+  "name": "napkin",
+  "owner": { "name": "Damsara Perera", "url": "https://github.com/Damsara" },
+  "metadata": { "description": "napkin: board-table product skills for coding agents." },
+  "plugins": [
+    {
+      "name": "napkin-skills",
+      "source": "./",
+      "description": "Take a vague idea to a requirement specification through three board sittings: sharpen, spar, shape. Then position it.",
+      "version": "0.1.0"
+    }
+  ]
+}

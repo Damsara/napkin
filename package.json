@@ -1,0 +1,21 @@
+{
+  "name": "napkin-skills",
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.28.1",
+  "description": "napkin: board-table product skills for coding agents. Takes a vague idea to a requirement specification. Runs the skills.sh installer against Damsara/napkin.",
+  "repository": { "type": "git", "url": "https://github.com/Damsara/napkin" },
+  "license": "MIT",
+  "bin": { "napkin-skills": "bin/napkin-skills.js" },
+  "files": ["bin"],
+  "scripts": {
+    "changeset": "changeset",
+    "version": "changeset version && node scripts/sync-plugin-version.mjs",
+    "validate": "node scripts/validate-skills.mjs",
+    "test": "node --test",
+    "package:check": "node scripts/check-package.mjs && node --check bin/napkin-skills.js && node scripts/sync-plugin-version.mjs --check"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.7.0",
+    "@changesets/cli": "^2.30.0"
+  }
+}

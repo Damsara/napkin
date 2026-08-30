@@ -1,0 +1,5 @@
+interface:
+  display_name: "Napkin Spar"
+  short_description: "Argue against an idea you hold"
+policy:
+  allow_implicit_invocation: false

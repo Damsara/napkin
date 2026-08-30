@@ -1,0 +1,5 @@
+interface:
+  display_name: "Napkin Me"
+  short_description: "Idea to requirement spec in three sittings"
+policy:
+  allow_implicit_invocation: false
