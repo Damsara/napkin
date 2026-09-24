@@ -73,9 +73,10 @@ test("every seat in seats.md is named in board, and every alternative kind in sp
   for (const kind of kinds) assert.match(skill("spar"), new RegExp(kind.split(" ")[0]));
 });
 
-test("rounds are capped at five everywhere a round is defined", () => {
-  assert.match(skill("canon"), /five/i);
+test("rounds are capped at five and asked one question per message", () => {
+  assert.match(skill("canon"), /at most \*\*five\*\*/i);
+  assert.match(skill("canon"), /one per message/i);
   for (const name of ["sharpen", "spar", "shape", "board"]) {
-    assert.doesNotMatch(skill(name), /one question at a time/i, `${name} must use rounds, not one-at-a-time`);
+    assert.doesNotMatch(skill(name), /numbered questions/i, `${name} must follow canon's round format, not batch numbered questions`);
   }
 });

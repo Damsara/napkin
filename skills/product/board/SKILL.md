@@ -15,7 +15,7 @@ Read the seats in canon's `references/seats.md`. Write the pack per canon. Dispa
 ## Chair
 1. Strike any claim with no line in the pack behind it, and say which seat lost which claim.
 2. Record every agreement to the ledger's board minutes for this sitting, without discussion.
-3. Tabulate the disagreements: which seats, on what, with each side's evidence. Put them to the user as one round of at most five numbered questions, each with your recommended resolution and its trade-off. Where the seats raised more than five, park the rest as open questions and say so.
+3. Tabulate the disagreements: which seats, on what, with each side's evidence. Put them to the user as one round, each with your recommended resolution. Where the seats raised more than five, park the rest as open questions and say so.
 4. Write each resolution to the ledger: `disagreed: <seat> vs <seat> on <what> · resolved: <how>`, or `parked`.
 
 ## Exit

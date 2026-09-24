@@ -5,7 +5,7 @@
 
 Each question carries the origin of the idea behind it, for the maintainer.
 
-## sharpen · round one (always, exactly these three)
+## sharpen · round one (always settled, exactly these three)
 - What do you want out of building this: to learn something, to ship something, to make money, or to have it in your portfolio? *(judging criterion)*
 - How many weeks are you willing to give the first version? *(appetite; Shape Up)*
 - Who is the one person you can picture using this, and when was the last time they hit the problem? Tell it as it happened. *(struggling moment; Moesta, Mom Test)*

@@ -10,8 +10,8 @@ Call the Skill tool with "canon".
 Pick questions from the `sharpen` sections of canon's `references/questions.md`; skip any rung the ledger already answers.
 
 ## Ladder
-1. **Round one, fixed.** The three round-one questions from questions.md: the builder's goal, the appetite in weeks, the one person and the last time it hurt. Write goal and appetite to the ledger header before asking anything else.
-2. **Job story.** From the struggling moment, draft "When [situation], I want to [motivation], so I can [outcome]" and confirm it. A persona the user offers becomes a situation; the demographic is dropped.
+1. **Round one.** Open with a one-line guess at the job story drawn from the user's first message, labelled as a guess, so the user corrects a draft rather than starting from nothing. Then the three round-one questions from questions.md: the builder's goal, the appetite in weeks, the one person and the last time it hurt. The ones the user's first message already answers become confirms, per canon. Write goal and appetite to the ledger header before asking anything else.
+2. **Job story.** From the struggling moment, redraft the opening guess as "When [situation], I want to [motivation], so I can [outcome]" and confirm it. A persona the user offers becomes a situation; the demographic is dropped.
 3. **Status quo.** What they hire today (including nothing) and what they call it; what they have tried; what they would have to stop using. When rung 3 is answered, dispatch a sub-agent that calls the Skill tool with "landscape" and continue the rounds; only questions that depend on it wait. Without sub-agents, call the Skill tool with "landscape" inline, then resume at rung 4.
 4. **Four forces.** Push, pull, anxiety, habit for that person. Write a one-line verdict to the ledger's decisions: whether push + pull beats anxiety + habit today, and the weakest force.
 5. **Well or puddle.** Few who want it a lot, or many who want it a little. Who wants it right now, named or placed at a venue. Write the verdict.
